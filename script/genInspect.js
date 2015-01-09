@@ -1,19 +1,28 @@
 function init(){
+	//variable checks if localstorage is supported
 	var bSupportsLocal = (('localStorage' in window) && window['localStorage'] != null);
-
+	
+	//if localstorage is not supported the user is given this message
 	if(!bSupportsLocal){
 		document.getElementById('dataForm').innerHTML = "<p>Sorry, local storage is not supported</p>";
 		return;
-	}
-
+	}//-->END IF
+	
+	//Checks if localstorage already has items stored
+	//if so it populates those items into the corresponding fields
 	if(window.localStorage.length != 0){
 		
+		//variable getting stored values into an Array
 		var checkBoxesArr = $("input[name='option1']").map(function(){
 			return $(this).val();
-		}).get();
-		console.log(checkBoxesArr);
+		}).get();//stored values are pulled into an array
+		//console.log(checkBoxesArr);
 
+		//counter is initialized for array walkthrough
 		var loopThrough = 0;
+		
+		//variable is set for each possible space in localmemory
+		//THIS NEEDS TO BE MORE DYNAMIC
 		var val0 = window.localStorage.getItem('check0');
 		var val1 = window.localStorage.getItem('check1');
 		var val2 = window.localStorage.getItem('check2');
@@ -35,13 +44,19 @@ function init(){
 		var val18 = window.localStorage.getItem('check18');
 		var val19 = window.localStorage.getItem('check19');
 
-
+		
+		//the values from localstorage are cycled through and compared to the values
+		//of the input elements on the forms page
+		//if a match is found the field is populated or the checkbox is checked
+		//THIS ALSO NEEDS TO BE MORE DYNAMIC
 		$.each(checkBoxesArr, function(){
 			var valueSet = checkBoxesArr[loopThrough];
 			
 
 			console.log(valueSet);
 			
+			//Values are cycled through
+			//NEEDS TO BE DYNAMIC CHANGE TO FOR STATEMENT
 			if(val0 == valueSet){
 				
 				$("input[value='" + val0 + "']").prop('checked', true);
@@ -150,8 +165,10 @@ function init(){
 	
 }
 
+//funciton for storing localcontent upon buttton click
 function storeLocalContent(){
 		
+		//variable for storing the input values into an array
 		    var checkedValues = $("input[name='option1']:checked").map(function(){
 		      return $(this).val();
 		    }).get(); // <----
@@ -159,6 +176,8 @@ function storeLocalContent(){
 
 		    var count = 0;
 
+		//array is cycled through and each individal entry is 
+		//catologued into localstorage
 		    $.each(checkedValues, function(){
 		    	var name = "check" + count;
 		    	var value = checkedValues[count];
@@ -168,6 +187,7 @@ function storeLocalContent(){
 		    });
 }
 
+//funciton for clearing localstorage
 function clearLocalContent(){
 	window.localStorage.clear();
 }
