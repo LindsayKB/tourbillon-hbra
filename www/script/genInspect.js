@@ -75,6 +75,7 @@ function init(){
 		$.each(checkBoxesArr, function(){
 			for(b = 0; b < checkBoxesArr.length; b++){
 				var valueSet = checkBoxesArr[b];
+				console.log('hit');
 			}
 			
 			
@@ -219,6 +220,9 @@ function storeLocalContent(){
 		    	console.log(value);
 		    });
 }
+
+
+
 
 //funciton for clearing localstorage
 function clearLocalContent(){
