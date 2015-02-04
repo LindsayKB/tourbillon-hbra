@@ -33,7 +33,8 @@ form{
 	margin-top: 19px;
 }
 
-.input{
+.input,
+.textArea {
 	width: 100%;
 	height: 40px;
 	font-size: 13pt;
