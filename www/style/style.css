@@ -51,7 +51,10 @@ form{
 
 .label {
          margin-bottom: 5%;
-         font-size: 13px;
+font-size: 13px;
+background: none !important;
+color: #333333 !important;
+box-shadow: none !important;
 }
 
 .on-site-label {
