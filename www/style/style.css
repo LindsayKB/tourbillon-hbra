@@ -143,7 +143,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
 }
 .pageTwo .label {
   font-size: 10px;
-  display:table-cell;
+  display:table-column;
   float:left;
 }
 .form-row {
