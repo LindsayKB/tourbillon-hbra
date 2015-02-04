@@ -8,7 +8,7 @@
 body{
 	font-size:13pt;
 	font-weight: bold;
-	background:gray;
+	background:white;
 }
 
 .container{
@@ -22,7 +22,7 @@ body{
 .container h1{
 	font-size: 26pt;
 	color: #333333;
-	margin-left: 5%;
+	margin-left: -1%;
 }
 
 .center{
