@@ -131,7 +131,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
 	width:20px;
 }
 
-.container h3 {
+/* .container h3 {
   font-size: 13px;
   color: #000000;
 }
@@ -149,4 +149,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
 .form-row {
 	display:table-row;
 	clear:both;
-}
+} */
