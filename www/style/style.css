@@ -135,8 +135,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
   font-size: 13px;
   color: #000000;
 }
-
+.form-section {
+	display:table;
+}
+.form-checkbox {
+	display:table-cell;
+}
 .pageTwo .label {
   font-size: 10px;
-}
+  display:table-cell;
 }
