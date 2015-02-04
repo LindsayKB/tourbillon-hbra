@@ -145,3 +145,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
   font-size: 10px;
   display:table-cell;
 }
+.form-row {
+	display:table-row;
+}
