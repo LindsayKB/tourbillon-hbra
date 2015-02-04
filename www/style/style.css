@@ -132,6 +132,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
 }
 
 .container h3 {
-  font-size: 11px;
+  font-size: 13px;
   color: #000000;
+}
+
+.pageTwo .label {
+  font-size: 10px;
+}
 }
