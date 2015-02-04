@@ -144,7 +144,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
 .pageTwo .label {
   font-size: 10px;
   display:table-cell;
+  float:left;
 }
 .form-row {
 	display:table-row;
+	clear:both;
 }
