@@ -57,6 +57,9 @@ color: #333333 !important;
 text-shadow: none !important;
 }
 
+.pageTwo .label {
+	border:1px solid #ffffff;
+}
 .on-site-label {
 	font-size: 12px;
         color: #6B6B6B;
