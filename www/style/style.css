@@ -127,6 +127,27 @@ border-bottom: 1.2em solid rgba(44, 44, 44, 0);
 content: "";
 }
 
+.arrowleft {
+background: #2C2C2C;
+font-size: 12px;
+position: relative;
+width: 2.5em;
+height: 1em;
+margin-left: 16em;
+margin-top: -20%;
+z-index: 194;
+}
+
+.arrowleft::before {
+bottom: -0.66666666em;
+right: 0.8em;
+position: absolute;
+border-right: 1.2em solid #2C2C2C;
+border-top: 1.2em solid rgba(44, 44, 44, 0);
+border-bottom: 1.2em solid rgba(44, 44, 44, 0);
+content: "";
+}
+
 #startTime,
 #endTime{
 	float:none;
@@ -185,6 +206,25 @@ margin-top: -1.2em;
 z-index: 0;
 border: 0px;
 background: rgba(240,240,240,1);
+}
+
+.pageTwo #btnBack{
+	width: 3.5em;
+height: 40px;
+font-size: 16pt;
+margin-left: 8em;
+margin-top: -1.2em;
+border-radius: 20px;
+z-index: 0;
+border: 0px;
+background: rgba(240,240,240,1);
+background: -moz-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(96,96,96,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(240,240,240,1)), color-stop(100%, rgba(96,96,96,1)));
+background: -webkit-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(96,96,96,1) 100%);
+background: -o-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(96,96,96,1) 100%);
+background: -ms-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(96,96,96,1) 100%);
+background: linear-gradient(to bottom, rgba(240,240,240,1) 0%, rgba(96,96,96,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#606060', GradientType=0 );
 }
 
 #ui-datepicker-div{
