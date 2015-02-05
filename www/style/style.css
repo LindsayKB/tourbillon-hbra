@@ -77,9 +77,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .label-inset {
   margin-left: 10%;
 margin-top: -8%;
+ font-size: 11px;
 }
 
-.pageTwo .checkbox {
+.pageTwo .check {
 	margin-bottom:3%;
 }
 .on-site-label {
