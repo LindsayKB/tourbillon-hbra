@@ -176,6 +176,14 @@ background: linear-gradient(to bottom, rgba(240,240,240,1) 0%, rgba(96,96,96,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#606060', GradientType=0 );
 }
 
+.pageTwo #btnSave {
+	margin-top:10%;
+}
+
+.pageTwo .arrowright {
+	margin-top:10%;
+}
+
 #ui-datepicker-div{
 	background:#ffffff;
 	border: 3px solid #000000;
