@@ -65,6 +65,7 @@ text-shadow: none !important;
 border: 1px solid #999999;
 border-radius: 3px;
 padding: 4px;
+padding-bottom: 8px;
 background: #ffffff;
 background: -moz-linear-gradient(top, #ffffff 0%, #f4f4f4 57%);
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(57%,#f4f4f4));
@@ -82,6 +83,10 @@ margin-top: -8%;
 
 .pageTwo .check {
 	margin-bottom:3%;
+	height: 13px;
+         width: 13px;
+         margin-left: 3%;
+margin-top: 1%;
 }
 .on-site-label {
 	font-size: 12px;
@@ -155,6 +160,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
 .check{
 	height:20px;
 	width:20px;
+}
+
+.pageTwo h3 {
+	font-size:15px;
 }
 
 /* .container h3 {
