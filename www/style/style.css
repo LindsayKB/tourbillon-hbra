@@ -75,7 +75,8 @@ background: linear-gradient(to bottom, rgba(240,237,239,1) 0%, rgba(224,224,224,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0edef', endColorstr='#e0e0e0', GradientType=0 );
 }
 .label-inset {
-  margin-left:5%;
+  margin-left: 10%;
+margin-top: -8%;
 }
 .on-site-label {
 	font-size: 12px;
