@@ -163,7 +163,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
 }
 
 .pageTwo h3 {
-	font-size:15px;
+	font-size: 12px;
+margin-bottom: 4%;
 }
 
 /* .container h3 {
