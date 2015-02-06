@@ -150,7 +150,8 @@ content: "";
 
 .after-form {
 	background-color: #E6E6E6;
-}
+	height: 4em;
+	margin-top: -5%;
 }
 
 #startTime,
@@ -208,7 +209,8 @@ height: 31px;
 padding: 0px;
 font-size: 13pt;
 margin-left: 8em;
-margin-top: -1.2em;
+margin-top: 1em;
+position: relative;
 border: 1px solid #000000 !important;
 border-radius: 0px !important;
 z-index: 0;
