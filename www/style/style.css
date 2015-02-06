@@ -236,7 +236,8 @@ background: linear-gradient(to bottom, rgba(240,240,240,1) 0%, rgba(96,96,96,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#606060', GradientType=0 );
 }
 
-.pageTwo #btnSaveLater {
+.pageTwo #btnSaveLater,
+.pageOne #btnSaveLater {
 width: 100%;
 margin-top: -2em;
 font-size: 12px;
