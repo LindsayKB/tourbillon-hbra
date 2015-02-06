@@ -133,14 +133,14 @@ font-size: 12px;
 position: relative;
 width: 2.5em;
 height: 1em;
-margin-left: 16em;
+margin-left: 3em;
 margin-top: -20%;
 z-index: 194;
 }
 
 .arrowleft::before {
 bottom: -0.66666666em;
-right: 0.8em;
+right: 2em;
 position: absolute;
 border-right: 1.2em solid #2C2C2C;
 border-top: 1.2em solid rgba(44, 44, 44, 0);
@@ -198,13 +198,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
 }
 
 .pageTwo #btnSave {
-	width: 3.5em;
-height: 40px;
-font-size: 16pt;
+	width: 6.5em;
+height: 31px;
+padding: 0px;
+font-size: 13pt;
 margin-left: 8em;
 margin-top: -1.2em;
+border: 1px solid #000000 !important;
+border-radius: 0px !important;
 z-index: 0;
-border: 0px;
 background: rgba(240,240,240,1);
 }
 
@@ -212,8 +214,8 @@ background: rgba(240,240,240,1);
 	width: 3.5em;
 height: 40px;
 font-size: 16pt;
-margin-left: 8em;
-margin-top: -1.2em;
+margin-left: -4.5em;
+margin-top: 0.5em;
 border-radius: 20px;
 z-index: 0;
 border: 0px;
