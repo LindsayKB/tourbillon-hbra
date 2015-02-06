@@ -112,7 +112,7 @@ position: relative;
 width: 2.5em;
 height: 1em;
 margin-left: 16em;
-margin-top: -20%;
+margin-top: 9%;
 z-index: 194;
 }
 
@@ -152,6 +152,12 @@ content: "";
 	background-color: #E6E6E6;
 	height: 5em;
 	margin-top: -5%;
+}
+
+.pageOne .after-form {
+	background-color: #E6E6E6;
+	height: 5em;
+	margin-top: -21%;
 }
 
 #startTime,
