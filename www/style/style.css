@@ -293,3 +293,18 @@ margin-bottom: 4%;
 	display:table-row;
 	clear:both;
 } */
+
+.home .logo
+{
+	width:100%;
+	display:table;
+	border:0px;
+}
+.home .logo-row
+{
+	display: table-row;
+}
+.home .logo-cell
+{
+	display: table-cell;
+}
