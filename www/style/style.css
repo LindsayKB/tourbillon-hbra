@@ -2,7 +2,6 @@
 	margin:0;
 	padding:0;
 	font-family: Arial, helvetica, sans-serif;
-	height: 47%;
 }
 
 body{
@@ -306,4 +305,10 @@ margin-bottom: 4%;
 .home .logo-cell
 {
 	display: table-cell;
+}
+@media (min-width: 1000px)  {
+	* 
+	{
+		height:47%;
+	}
 }
