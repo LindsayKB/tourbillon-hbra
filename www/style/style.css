@@ -349,4 +349,21 @@ margin-bottom: 4%;
   		margin-bottom: 1em;
   		height: 42%;
 	}
+	.pageTwo .after-form
+	{
+		margin-top:0%;	
+	}
+	.pageTwo #btnSave {
+		margin-left: 22em;
+  		margin-top: 0.5em;
+	}
+	.pageTwo #btnSave {
+		  margin-top: -0.3em;
+	}
+	.arrowleft {
+		margin-top:-4%;
+	}
+	.pageTwo #btnBack {
+		  margin-top: -1.4em;
+	}
 }
