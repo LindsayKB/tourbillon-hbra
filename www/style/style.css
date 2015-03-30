@@ -328,7 +328,7 @@ margin-bottom: 4%;
   		height: 62%;
 	}
 } */
-@media (min-width: 500px) {
+@media all and (orientation: landscape) {
 		* 
 	{
 		height:62%;
