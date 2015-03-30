@@ -29,7 +29,7 @@ body{
 }
 
 form{
-	margin-top: 180px;
+	margin-top: 11px;
 }
 
 .input {
@@ -306,14 +306,35 @@ margin-bottom: 4%;
 {
 	display: table-cell;
 }
-@media (min-width: 1000px)  {
+/* @media (min-width: 1000px)  {
 	* 
 	{
 		height:62%;
 	}
-	form 
+	form {
+		margin-top: 180px;
+	}
+	.label-inset
 	{
-		margin-top: -3px;
+		margin-top: -5%;
+	}
+	.pageTwo h3 {
+		margin-bottom: -5%;
+	}
+	.pageTwo .form-label 
+	{
+		padding: 3px;
+  		padding-bottom: 6px;
+  		height: 62%;
+	}
+} */
+@media all and (orientation: portrait) {
+		* 
+	{
+		height:62%;
+	}
+	form {
+		margin-top: 180px;
 	}
 	.label-inset
 	{
