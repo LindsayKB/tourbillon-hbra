@@ -364,3 +364,40 @@ margin-bottom: 4%;
 		  margin-top: -1.4em;
 	}
 }
+@media (orientation: portrait) {
+		* 
+	{
+		height:auto;
+	}
+	form {
+		margin-top: 11px;
+	}
+	.label-inset {
+  		margin-left: 10%;
+		margin-top: -8%;
+ 		font-size: 11px;
+	}
+	.pageTwo h3 {
+		font-size: 12px;
+		margin-bottom: 4%;
+	}
+	.pageTwo .form-label 
+	{
+		padding: 4px;
+  		margin-bottom: -13%;
+	}
+	.pageTwo .after-form
+	{
+		margin-top: -5%;	
+	}
+	.pageTwo #btnSave {
+		margin-left: 8em;
+		margin-top: 1em;
+	}
+	.arrowleft {
+		margin-top: -8%;
+	}
+	.pageTwo #btnBack {
+		  margin-top: -3em;
+	}
+}
