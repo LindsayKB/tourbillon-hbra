@@ -4,6 +4,9 @@
 	font-family: Arial, helvetica, sans-serif;
 }
 
+html {
+	height:100%;
+}
 
 body{
 	font-size:13pt;
@@ -31,7 +34,7 @@ body{
 }
 
 form{
-	margin-top: 19px;
+	margin-top: 180px;
 }
 
 .input {
