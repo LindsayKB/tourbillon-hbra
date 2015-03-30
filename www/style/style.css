@@ -328,10 +328,10 @@ margin-bottom: 4%;
   		height: 62%;
 	}
 } */
-@media all and (orientation: landscape) {
+@media screen and (orientation: landscape) {
 		* 
 	{
-		height:62%;
+		height:65%;
 	}
 	form {
 		margin-top: 180px;
