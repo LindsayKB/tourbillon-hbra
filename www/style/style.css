@@ -328,7 +328,6 @@ margin-bottom: 4%;
   		height: 62%;
 	}
 } */
-/*
 @media (orientation: landscape) {
 		* 
 	{
@@ -364,7 +363,8 @@ margin-bottom: 4%;
 	.pageTwo #btnBack {
 		  margin-top: -1.4em;
 	}
-} */
+} 
+/*
 @media (orientation: portrait) {
 		* 
 	{
@@ -402,3 +402,4 @@ margin-bottom: 4%;
 		  margin-top: -3em;
 	}
 }
+*/
