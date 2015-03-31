@@ -29,7 +29,11 @@ body{
 }
 
 form{
-	margin-top: 11px;
+	margin-top: 12px;
+}
+
+.form-label-last {
+	margin-bottom:5%;
 }
 
 .input {
@@ -58,6 +62,7 @@ text-shadow: none !important;
 
 .pageTwo .form-label {
 	margin-bottom: -13%;
+	  margin-top: 15%;
 font-size: 13px;
 color: #333333 !important;
 text-shadow: none !important;
@@ -269,7 +274,7 @@ zoom: 1;
 
 .pageTwo h3 {
 	font-size: 12px;
-margin-bottom: 4%;
+  margin-bottom: -12%;
 }
 
 /* .container h3 {
