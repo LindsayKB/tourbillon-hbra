@@ -391,15 +391,15 @@ zoom: 1;
 		  margin-top: -1.4em;
 	}
 } 
-@media screen and (max-width:400px) {
+@media screen and (max-width:300px) {
 	.pageTwo .check 
 	{
 		margin-left: 2%;
-  		margin-top: 2%;
+  		margin-top: 1%;
 	}
 	.label-inset {
-		margin-left: 2%;
-	 margin-top: 2%;
+		margin-left: 11%;
+  		margin-top: -10%;
 	}
 }
 /*
