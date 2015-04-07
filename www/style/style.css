@@ -408,9 +408,15 @@ zoom: 1;
 	    margin-top: -6.5%;
 	}
 }
-@media (min-width:501px) and (max-width:600px) {
+@media (min-width:501px) and (max-width:700px) {
 	.label-inset {
 	    margin-top: -5.5%;
+	}
+}
+@media (min-width:701px) {
+	.label-inset {
+	    margin-left: 7%;
+  	margin-top: -5%;
 	}
 }
 /*
