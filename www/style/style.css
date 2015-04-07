@@ -97,7 +97,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .label-inset {
   margin-left: 10%;
-margin-top: -10%;
+margin-top: -8%;
  font-size: 11px;
 }
 
@@ -105,8 +105,8 @@ margin-top: -10%;
 	margin-bottom:3%;
 	height: 13px;
          width: 13px;
-           margin-left: 2%;
-  margin-top: 2%;
+           margin-left: 3%;
+  margin-top: 1%;
 }
 .on-site-label {
 	font-size: 12px;
@@ -391,6 +391,17 @@ zoom: 1;
 		  margin-top: -1.4em;
 	}
 } 
+@media screen and (max-width:400px) {
+	.pageTwo .check 
+	{
+		margin-left: 2%;
+  		margin-top: 2%;
+	}
+	.label-inset {
+		margin-left: 2%;
+	 margin-top: 2%;
+	}
+}
 /*
 @media (orientation: portrait) {
 		* 
