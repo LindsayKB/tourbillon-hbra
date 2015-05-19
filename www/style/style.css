@@ -407,6 +407,10 @@ zoom: 1;
 	.label-inset {
 	    margin-top: -6.5%;
 	}
+	.pageOne .after-form 
+	{
+	    margin-top: -5%;
+	}
 }
 @media (min-width:501px) and (max-width:700px) {
 	.label-inset {
@@ -417,10 +421,6 @@ zoom: 1;
 	}
 	.arrowright{
 	   margin-left:20em;
-	}
-	.pageOne .after-form 
-	{
-	    margin-top: -5%;
 	}
 }
 @media (min-width:701px) {
