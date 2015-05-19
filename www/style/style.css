@@ -231,16 +231,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', end
 
 .pageTwo #btnSave {
 	width: 6.5em;
-height: 31px;
-padding: 0px;
-font-size: 13pt;
-margin-left: 8em;
-margin-top: 1em;
-position: relative;
-border: 1px solid #000000 !important;
-border-radius: 0px !important;
-z-index: 0;
-background: rgba(240,240,240,1);
+  height: 31px;
+  padding: 0px;
+  font-size: 13pt;
+  margin-left: auto;
+  float: right;
+  margin-right: 5%;
+  margin-top: 1em;
+  position: relative;
+  border: 1px solid #000000 !important;
+  border-radius: 0px !important;
+  z-index: 0;
+  background: rgba(240,240,240,1);
 }
 
 .pageTwo #btnBack{
@@ -410,6 +412,17 @@ zoom: 1;
 	 margin-left: 11.7em;
   margin-top: 10.5%;
 	}
+	
+	.arrowleft {
+	   margin-left: 2em;
+  margin-top: 12%;
+	}
+	
+	.pageTwo #btnBack {
+	  margin-left: 0.4em;
+  margin-top: -4em;
+    width: 2.7em;
+	}
 }
 /* All Nexus phones */ 
 @media (min-width:301px) and (max-width:400px) {
@@ -426,6 +439,10 @@ zoom: 1;
 	}
 	.pageOne #btnSave{
 	    margin-left: 11em;
+	}
+	
+	.arrowleft {
+	  margin-top: 7%;
 	}
 }
 /*Generic 480*/
@@ -444,6 +461,9 @@ zoom: 1;
 	.pageOne #btnSave{
 	    margin-left: 16.7em;
 	}
+	.arrowleft{
+	 margin-top: 5%;
+	}
 }
 @media (min-width:501px) and (max-width:700px) {
 	.label-inset {
@@ -456,7 +476,7 @@ zoom: 1;
 	   margin-left:20em;
 	}
 }
-/* Acer A500, HP Pre 3 */ 
+/* HP Pre 3 */ 
 @media (min-width:701px) and (max-width:750px) {
 	.label-inset {
 	    margin-left: 7%;
@@ -474,7 +494,7 @@ zoom: 1;
 	    margin-top: -10%;
 	}
 }
-/*iPad */ 
+/*iPad, Acer A500 */ 
 @media (min-width:751px) {
 	.pageTwo .check 
 	{
@@ -482,8 +502,8 @@ zoom: 1;
   		margin-top: 1%;
 	}
 	.label-inset {
-		margin-left: 11%;
-  		margin-top: -10%;
+		  margin-left: 8%;
+  margin-top: -5.2%;
 	}
 	.pageOne #btnSave{
 	      margin-left: 23.8em;
@@ -496,6 +516,20 @@ zoom: 1;
 	}
 	.pageOne .after-form {
 	    margin-top: -11%;
+	}
+	.pageTwo .form-label{
+	  height:1.5em;
+	}
+	.pageTwo #btnBack{
+	      margin-top: -1.2em;
+	}
+	
+	.arrowleft{
+	     margin-top: 3%;
+	}
+	
+	.pageTwo #btnSave{
+	  margin-top: 0.7em;
 	}
 }
 /*
