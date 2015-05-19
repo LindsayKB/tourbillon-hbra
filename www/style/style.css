@@ -401,6 +401,14 @@ zoom: 1;
 		margin-left: 11%;
   		margin-top: -10%;
 	}
+	.pageOne #btnSave{
+	    margin-left: 5.5em;
+  margin-top: -1em;
+	}
+	.arrowright{
+	 margin-left: 11.7em;
+  margin-top: 10.5%;
+	}
 }
 
 @media (min-width:401px) and (max-width:500px) {
@@ -415,7 +423,7 @@ zoom: 1;
 	  margin-left: 31.5em;
   margin-top: 6%;
 	}
-	#btnSave{
+	.pageOne #btnSave{
 	    margin-left: 16.7em;
 	}
 }
@@ -423,7 +431,7 @@ zoom: 1;
 	.label-inset {
 	    margin-top: -5.5%;
 	}
-	#btnSave{
+	.pageOne #btnSave{
 	    margin-left:3%;
 	}
 	.arrowright{
@@ -439,7 +447,7 @@ zoom: 1;
 	  margin-left:42em;
 	    margin-top: 4%;
 	}
-	#btnSave{
+	.pageOne #btnSave{
 	    margin-left: 22.5em;
 	}
 	.pageOne .after-form 
