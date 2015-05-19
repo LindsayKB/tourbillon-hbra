@@ -418,6 +418,10 @@ zoom: 1;
 	.arrowright{
 	   margin-left:20em;
 	}
+	.pageOne .after-form 
+	{
+	    margin-top: -5%;
+	}
 }
 @media (min-width:701px) {
 	.label-inset {
