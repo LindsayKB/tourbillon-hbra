@@ -438,7 +438,24 @@ zoom: 1;
 	   margin-left:20em;
 	}
 }
-@media (min-width:701px) {
+@media (min-width:701px) and (max-width:799px) {
+	.label-inset {
+	    margin-left: 7%;
+  	margin-top: -5.2%;
+	}
+	.arrowright{
+	  margin-left:42em;
+	    margin-top: 4%;
+	}
+	.pageOne #btnSave{
+	    margin-left: 22.5em;
+	}
+	.pageOne .after-form 
+	{
+	    margin-top: -10%;
+	}
+}
+@media (min-width:800px) {
 	.label-inset {
 	    margin-left: 7%;
   	margin-top: -5.2%;
