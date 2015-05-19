@@ -409,14 +409,14 @@ zoom: 1;
 	}
 	.pageOne .after-form 
 	{
-	    margin-top: -8%;
+	      margin-top: -11%;
 	}
 	.arrowright{
-	  margin-left:42em;
-	    margin-top: 4%;
+	  margin-left: 31.5em;
+  margin-top: 6%;
 	}
 	#btnSave{
-	    margin-left: 22.5em;
+	    margin-left: 16.7em;
 	}
 }
 @media (min-width:501px) and (max-width:700px) {
