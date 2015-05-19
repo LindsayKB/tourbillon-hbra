@@ -412,6 +412,10 @@ zoom: 1;
 	.label-inset {
 	    margin-top: -5.5%;
 	}
+	#btnSave
+	{
+	    margin-left:3%;
+	}
 }
 @media (min-width:701px) {
 	.label-inset {
