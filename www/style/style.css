@@ -431,6 +431,10 @@ zoom: 1;
 	#btnSave{
 	    margin-left: 22.5em;
 	}
+	.pageOne .after-form 
+	{
+	    margin-top: -10%;
+	}
 }
 /*
 @media (orientation: portrait) {
