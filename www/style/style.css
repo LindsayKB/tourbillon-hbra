@@ -422,6 +422,9 @@ zoom: 1;
 	    margin-left: 7%;
   	margin-top: -5.2%;
 	}
+	.arrowright{
+	  margin-left:20em;
+	}
 }
 /*
 @media (orientation: portrait) {
