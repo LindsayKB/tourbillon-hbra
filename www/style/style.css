@@ -390,7 +390,8 @@ zoom: 1;
 	.pageTwo #btnBack {
 		  margin-top: -1.4em;
 	}
-} 
+}
+/*Generic 240, HTC Tattoo */ 
 @media screen and (max-width:300px) {
 	.pageTwo .check 
 	{
@@ -410,7 +411,24 @@ zoom: 1;
   margin-top: 10.5%;
 	}
 }
-
+/* All Nexus phones */ 
+@media (min-width:301px) and (max-width:400px) {
+	.label-inset {
+	    margin-top: -6.5%;
+	}
+	.pageOne .after-form 
+	{
+	      margin-top: -11%;
+	}
+	.arrowright{
+	  margin-left: 21.5em;
+  margin-top: 8%;
+	}
+	.pageOne #btnSave{
+	    margin-left: 11em;
+	}
+}
+/*Generic 480*/
 @media (min-width:401px) and (max-width:500px) {
 	.label-inset {
 	    margin-top: -6.5%;
@@ -438,7 +456,8 @@ zoom: 1;
 	   margin-left:20em;
 	}
 }
-@media (min-width:701px) and (max-width:799px) {
+/* Acer A500, HP Pre 3 */ 
+@media (min-width:701px) and (max-width:750px) {
 	.label-inset {
 	    margin-left: 7%;
   	margin-top: -5.2%;
@@ -455,21 +474,24 @@ zoom: 1;
 	    margin-top: -10%;
 	}
 }
-@media (min-width:800px) {
-	.label-inset {
-	    margin-left: 7%;
-  	margin-top: -5.2%;
+/*iPad */ 
+@media (min-width:751px) {
+	.pageTwo .check 
+	{
+		margin-left: 2%;
+  		margin-top: 1%;
 	}
-	.arrowright{
-	  margin-left:42em;
-	    margin-top: 4%;
+	.label-inset {
+		margin-left: 11%;
+  		margin-top: -10%;
 	}
 	.pageOne #btnSave{
-	    margin-left: 22.5em;
+	    margin-left: 5.5em;
+  margin-top: -1em;
 	}
-	.pageOne .after-form 
-	{
-	    margin-top: -10%;
+	.arrowright{
+	 margin-left: 11.7em;
+  margin-top: 10.5%;
 	}
 }
 /*
